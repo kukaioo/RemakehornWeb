@@ -1,0 +1,307 @@
+html, body {
+    background: #192a44;
+    color: #ffffff;
+    font-family: "Grifinito L";
+    margin: 0;
+    padding: 0;
+    
+}
+
+.smooth-scroll {
+    overflow: hidden;
+}
+
+.hero-scroll {
+    height: 100vh;
+    overflow: hidden;
+}
+
+.section {
+    position: relative;
+    display: flex;
+    min-height: 100vh;
+    padding: 50px;
+    justify-content: center;
+}
+
+.copy {
+    background: #231a40;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-wrapper {
+    max-width: 1400px;
+}
+
+.content {
+    width: 100%;
+    max-width: 840px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+h1 {
+    font-size: 180px;
+    font-weight: 400;
+    line-height: 150px;
+    margin: 0px;
+    text-transform: uppercase;
+}
+
+.image-wrapper {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 50%;
+}
+
+.image {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+p {
+    font-size: 4em;
+    line-height: 1.2em;
+}
+
+.img-box {
+    background: rgb(37, 59, 87);
+    display: inline-block;
+    
+}
+.box-Ig {
+    width: 100px;
+    height: 100%;
+    border-radius: 50%;
+    padding-left: 80px;
+    padding-right: 80px;
+    margin-top: 40px;
+}
+
+
+
+
+
+
+:root {
+    --color-bg: rgb(27, 35, 63);
+    --color-text: #fc3333;
+    --color-text2: rgb(255, 255, 255);
+}
+
+.Min {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.ht-by { 
+    width: 100%;
+    height: 100%;
+    background: var(--color-bg);
+    
+    
+}
+
+.header {
+    width: 100%;
+    height: 300px;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    color: var(--color-text)
+}
+
+p {
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.img-2 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.container-2 {
+    width: 100%;
+    height: 100%;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+}
+
+.col {
+    height: 100%;
+}
+
+.img-container {
+    width: fit-content;
+    height: 100%;
+}
+
+.img-container.left {
+    text-align: right;
+}
+
+.img-container p {
+    position: relative;
+    padding: 5px 0;
+    color: var(--color-text);
+    opacity: 1;
+    transition: opacity 0.3s, transform 0.3s;
+}
+
+#row-1 {
+    height: 200px;
+}
+
+#row-2 {
+    height: 500px;
+}
+
+#row-3 {
+    height: 150px;
+}
+
+#row-4 {
+    height: 400px;
+}
+
+#row-5 {
+    height: 700px
+}
+
+#row-6 {
+    height: 300px;
+}
+
+#row-7 {
+    height: 200px;
+}
+
+#row-8 {
+    height: 600px;
+}
+
+#row-9 {
+    height: 300px;
+}
+
+#row-10 {
+    height: 500px;
+}
+
+.col:nth-child(1) {
+    flex: 3;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.col:nth-child(2) {
+    flex: 5;
+}
+
+.img-container.right img {
+    clip-path: polygon(100% 0, 100% 0, 100% 0, 100% 0);
+}
+
+.img-container.left img {
+    clip-path: polygon(0 0, 0 0, 0 0, 0 0);
+}
+
+.whitespace {
+    width: 100%;
+    height: 300px;
+}
+
+.img-container .min-while {
+    position: relative;
+    padding: 5px 0;
+    color: var(--color-text2);
+    opacity: 1;
+    transition: opacity 0.3s, transform 0.3s;
+}
+
+.but {
+    background-color: aqua
+}
+
+
+
+
+.Box_3 {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.body-ni {
+    background-color: #1f1f44;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.h-12 {
+    margin: 10px;
+}
+
+.box {
+    background-color: steelblue;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 200px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.3);
+    transform: translateX(400%);
+    transition: transform 0.9s ease;
+}
+
+.box:nth-of-type(even) {
+    transform: translateX(-400%);
+}
+
+.box.show {
+    transform: translateX(0);
+}
+
+.box h2 {
+    font-size: 45px;
+}
+
+
+.Aa:link {
+    text-decoration: none;
+  }
+  
+  .Aa:visited {
+    text-decoration: none;
+  }
+  
+  .Aa:hover {
+    text-decoration: underline;
+  }
+  
+  .Aa:active {
+    text-decoration: underline;
+  }
